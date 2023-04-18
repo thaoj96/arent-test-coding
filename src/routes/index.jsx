@@ -3,6 +3,7 @@ import MainLayout from "../layout";
 import loadable from "./loadable";
 const Home = loadable(() => import("../Pages/Home"));
 const Detail = loadable(() => import("../Pages/Detail"));
+const ViewList = loadable(() => import("../Pages/ViewList"));
 
 const MainRoutes = () => {
   const element = useRoutes([
@@ -20,6 +21,10 @@ const MainRoutes = () => {
             {
               path: "/detail",
               element: <Detail />,
+            },
+            {
+              path: "/list",
+              element: <ViewList />,
             },
           ],
         },

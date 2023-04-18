@@ -1,6 +1,5 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react";
-import { gui } from "../../../utils/gui";
 
 export default function ViewMyExercise() {
   return (

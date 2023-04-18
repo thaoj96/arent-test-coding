@@ -52,7 +52,7 @@ export default function ViewMyDiary() {
         onClick={() => setData((v) => v.concat(fakeData))}
         style={{ marginTop: 28, marginBottom: 64 }}
       >
-        記録をもっと見る
+        自分の日記をもっと見る
       </button>
     </div>
   );
