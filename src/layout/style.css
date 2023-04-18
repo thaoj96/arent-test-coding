@@ -1,0 +1,40 @@
+.main-layout {
+  background-color: #414141;
+  overflow: hidden;
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 16px;
+  font-style: normal;
+  position: relative;
+}
+
+.main-header {
+  height: 64px;
+  padding: 0 160px 0 160px;
+}
+
+.item-header {
+  cursor: pointer;
+  margin-left: 40px;
+  position: relative;
+}
+
+.item-header-number {
+  background-color: #ea6c00;
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  font-size: 10px;
+  font-weight: 400;
+  text-align: center;
+  position: absolute;
+  top: -5px;
+  left: 16px;
+}
+
+.scroll-content {
+  overflow: scroll;
+}
+.scroll-content::-webkit-scrollbar {
+  width: 0;
+}

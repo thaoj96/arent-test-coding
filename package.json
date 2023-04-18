@@ -9,7 +9,14 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "@ahooksjs/use-url-state": "^3.5.1",
+    "chart.js": "^4.2.1",
+    "dayjs": "^1.11.7",
+    "faker": "^5.5.3",
+    "react-chartjs-2": "^5.2.0",
+    "react-router-dom": "^6.10.0",
+    "react-topbar-progress-indicator": "^4.1.1"
   },
   "scripts": {
     "start": "react-scripts start",

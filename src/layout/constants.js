@@ -1,0 +1,82 @@
+export const listSystem = [
+  {
+    id: 'user',
+    name: 'Account & User',
+    description: 'vvvvvv',
+    url: '/apps/user',
+    code: 'user',
+  },
+  {
+    id: 1,
+    name: 'Hub',
+    description: 'vvvvvv',
+    url: '/apps/hub',
+    code: 'hub',
+  },
+  {
+    id: 2,
+    name: 'Access Control',
+    code: 'access_control',
+    url: '/apps/access-control',
+  },
+  {
+    id: 3,
+    name: 'Parking',
+    url: '/apps/parking',
+    code: 'parking',
+  },
+  {
+    id: 4,
+    name: 'Camera AI',
+    url: '/apps/ai',
+    code: 'camera_ai',
+  },
+  {
+    id: 'sensor',
+    name: 'Sensor',
+    url: '/apps/sensor',
+    code: 'sensor',
+  },
+  {
+    id: 5,
+    name: 'CCTV',
+    url: '/apps/cctv',
+    code: 'cctv',
+  },
+  {
+    id: 6,
+    name: 'Radar Monitor',
+    url: '/apps/radar',
+    code: 'radar',
+  },
+  {
+    id: 7,
+    name: 'Energy',
+    url: '/apps/energy',
+    code: 'energy',
+  },
+  {
+    id: 8,
+    name: 'Lighting',
+    url: '/apps/lighting',
+    code: 'lighting',
+  },
+  {
+    id: 9,
+    name: 'VPMS',
+    url: '/apps/vpms',
+    code: 'vpms',
+  },
+  {
+    id: 10,
+    name: 'Watering',
+    url: '/apps/water',
+    code: 'watering',
+  },
+  {
+    id: 11,
+    name: 'Merchant',
+    url: '/apps/merchant',
+    code: 'merchant',
+  },
+];
