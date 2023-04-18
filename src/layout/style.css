@@ -6,6 +6,7 @@
   font-size: 16px;
   font-style: normal;
   position: relative;
+  min-width: 1280px;
 }
 
 .main-header {

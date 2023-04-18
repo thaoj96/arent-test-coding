@@ -71,7 +71,46 @@ export const data = {
   ],
 };
 
-export function LineChart() {
+export function LineChart2({ title }) {
   // console.log("data", data);
-  return <Line options={options} data={data} />;
+  return (
+    <div>
+      {title && (
+        <div
+          className="flex-row"
+          style={{ margin: "16px 0 0 24px", color: "#FFF" }}
+        >
+          <div style={{ fontSize: 15 }}>
+            <div>BODY</div>
+            <div>RECORD</div>
+          </div>
+          <div style={{ marginLeft: 24, fontSize: 22, fontWeight: 400 }}>
+            2021.05.21
+          </div>
+        </div>
+      )}
+      <div style={{ height: 235, padding: "0 50px 0 50px" }}>
+        <Line options={options} data={data} />;
+      </div>
+      <div className="flex-row" style={{ marginTop: 12 }}>
+        {["日", "週", "月", "年"].map((item, index) => (
+          <div
+            style={{
+              width: 56,
+              height: 24,
+              borderRadius: 11,
+              backgroundColor: index === 3 ? "#FFCC21" : "#FFF",
+              marginLeft: 16,
+              textAlign: "center",
+              color: index === 3 ? "#FFF" : "#FFCC21",
+              cursor: "pointer",
+            }}
+            key={index.toString()}
+          >
+            {item}
+          </div>
+        ))}
+      </div>
+    </div>
+  );
 }

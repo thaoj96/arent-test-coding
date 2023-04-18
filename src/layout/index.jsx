@@ -9,10 +9,20 @@ import { IconScrollToTop } from "../Icons/orther";
 const MainLayout = () => {
   return (
     <div className="main-layout">
-      <div onClick={() => {
-        const element = document.getElementById("main-content");
-        element.scrollTop = 0;
-      }} style={{ position: "absolute", bottom: 150, right: 80, cursor: "pointer" }}><IconScrollToTop /></div>
+      <div
+        onClick={() => {
+          const element = document.getElementById("main-content");
+          element.scrollTop = 0;
+        }}
+        style={{
+          position: "absolute",
+          bottom: 150,
+          right: 80,
+          cursor: "pointer",
+        }}
+      >
+        <IconScrollToTop />
+      </div>
 
       <Header />
       <div
