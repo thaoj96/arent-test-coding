@@ -27,7 +27,6 @@ export const options = {
   maintainAspectRatio: false,
   plugins: {
     legend: {
-      //   position: "top" as const
       display: false,
     },
     title: {
@@ -57,13 +56,11 @@ export const data = {
   labels,
   datasets: [
     {
-      // label: "Dataset 1",
       data: labels.map(() => faker.datatype.number({ min: 0, max: 100 })),
       borderColor: "#FFCC21",
       backgroundColor: "#FFCC21",
     },
     {
-      // label: "Dataset 2",
       data: labels.map(() => faker.datatype.number({ min: 0, max: 100 })),
       borderColor: "#8FE9D0",
       backgroundColor: "#8FE9D0",
@@ -72,6 +69,5 @@ export const data = {
 };
 
 export function LineChart() {
-  // console.log("data", data);
   return <Line options={options} data={data} />;
 }
